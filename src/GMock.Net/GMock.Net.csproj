@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>GMock.Net</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>HuiSou</Authors>
+    <Description>Contract test made easy with gluable mock</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/HuiSou/gmock-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HuiSou/gmock-net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>mock;testing;contract;unit-test</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/"/>
+  </ItemGroup>
+
+</Project>
